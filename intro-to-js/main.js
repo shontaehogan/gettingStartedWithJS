@@ -3,39 +3,39 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A:
+// A: an undefined variable
 
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
-// A:
+// A: "Tim"
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:
+// A: "Tim"
 
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A:
+// A: Hello, how are you? Tim.
 
 
 // 5.
 // What is `math` set to?
 let high = 50;
-let low  = 10;
+let low = 10;
 let math = high - low;
-// A:
+// A: 40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
+// A: 45
 
 
 // 7.
@@ -44,14 +44,16 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A:
+let sum = givenName + (born - today) + " years old";
+console.log(sum);
+// A: "Tim is 33 years old"
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName;
-let instructorName;
+let yourName = "I'm";
+let instructorName = "Lexi";
 
 
 // 9.
@@ -61,64 +63,65 @@ let instructorName;
 
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
-
+console.log(statement);
 
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-let myNumber;
-let myString;
-let myBoolean;
+let myNumber = 1;
+let myString = "Hello";
+let myBoolean = false;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
-// A:
+// A: The above variable is "let myUndefined;"" is defined.
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
-// A.
+// A. true
 
 
 // 12.
 let y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A.
+// A. true
 
 
 // 14.
 let a = (null == null);
-// A.
+// A. true
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
+// A. true
 
 
 // 16.
 let c = (undefined == null);
-// A.
+// A. true
 
 
 // 17.
 let d = (null == false);
-// A.
+// A. false
 
 
 // 18.
 let e = (NaN == null);
-// A.
+// A. false
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. false
+
 
 
 // 20.
@@ -127,7 +130,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-{
+if (thirsty == true) {
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -138,87 +141,89 @@ let thirsty = true;
 // 21.
 let x;
 
-if(x){
-	console.log("True!");
+if (x) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
-if(""){
-	console.log("True!");
+if ("") {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
 // this expression will set x to NaN
 let x = 1 * undefined;
 
-if(x){
-	console.log("True!");
+if (x) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
-if(false){
-	console.log("True!");
+if (false) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 25.
-if(-5 && 5){
-	console.log("True!");
+if (-5 && 5) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 26.
-if("Hello World!"){
-	console.log("True!");
+if ("Hello World!") {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
-if({}){
-	console.log("True!");
+if ({}) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 28.
-if({name: "Yehuda Katz"}){
-	console.log("True!");
+if ({
+    name: "Yehuda Katz"
+  }) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 29.
-if(new Date()){
-	console.log("True!");
+if (new Date()) {
+  console.log("True!");
 } else {
-	console.log("False!");
+  console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 30.
