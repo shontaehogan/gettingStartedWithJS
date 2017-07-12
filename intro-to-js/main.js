@@ -3,25 +3,41 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
+<<<<<<< HEAD
 // A: an undefined variable
+=======
+// A:  Variable
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
+<<<<<<< HEAD
 // A: "Tim"
+=======
+// A: Tim
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
+<<<<<<< HEAD
 // A: "Tim"
+=======
+// A: givenName
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
+<<<<<<< HEAD
 // A: Hello, how are you? Tim.
+=======
+// A: a string and a variable
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 5.
@@ -29,13 +45,21 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low = 10;
 let math = high - low;
+<<<<<<< HEAD
 // A: 40
+=======
+// A: subtract low from high
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
+<<<<<<< HEAD
 // A: 45
+=======
+// A: math equals variable minus string
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 7.
@@ -44,21 +68,39 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
+<<<<<<< HEAD
 let sum = givenName + (born - today) + " years old";
 console.log(sum);
 // A: "Tim is 33 years old"
+=======
+// A:
+// let givenName = "Tim";
+// let born = 1984;
+// let today = 2017;
+// let sum = givenName + " is " + (today - born);
+// console.log(sum);
+
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
+<<<<<<< HEAD
 let yourName = "I'm";
 let instructorName = "Lexi";
 
+=======
+// let yourName;
+// let instructorName;
+let yourName = "Shontae";
+let instructorName = "Doug";
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
-// A:
+// A: yourName = "Shontae";
+// instructorName = "Doug";
 
 
 // This statement should read correctly
@@ -68,12 +110,21 @@ console.log(statement);
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
+<<<<<<< HEAD
 let myNumber = 1;
 let myString = "Hello";
 let myBoolean = false;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined;
 // A: The above variable is "let myUndefined;"" is defined.
+=======
+let myNumber = 8;
+let myString = "Hello, World";
+let myBoolean = true;
+// This one's a little tricky - think carefully about what makes a value "undefined"!
+let myUndefined;
+// A: let myUndefined = '';
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
@@ -121,7 +172,10 @@ let e = (NaN == null);
 // 19.
 let f = (NaN == NaN);
 // A. false
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 20.
@@ -129,8 +183,12 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
+if(thirsty = true) {
 
+<<<<<<< HEAD
 if (thirsty == true) {
+=======
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -146,7 +204,11 @@ if (x) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: False!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 22.
@@ -155,7 +217,11 @@ if ("") {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: False!
+=======
+// A: false
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 23.
@@ -167,7 +233,11 @@ if (x) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: False!
+=======
+// A: false
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 24.
@@ -176,7 +246,11 @@ if (false) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: False!
+=======
+// A: false
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 25.
@@ -185,7 +259,11 @@ if (-5 && 5) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: True!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 26.
@@ -194,7 +272,11 @@ if ("Hello World!") {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: True!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 27.
@@ -203,7 +285,11 @@ if ({}) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: True!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 28.
@@ -214,7 +300,11 @@ if ({
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: True!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 29.
@@ -223,7 +313,11 @@ if (new Date()) {
 } else {
   console.log("False!");
 }
+<<<<<<< HEAD
 // A: True!
+=======
+// A: true
+>>>>>>> 1f53d6bed3afe9fc1293d7d60748605d9bc9fd60
 
 
 // 30.
